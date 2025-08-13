@@ -1,0 +1,39 @@
+{
+  "hero_headline_text": "Sentuhan Sensasi Pantai",
+  "hero_subheadline_text": "",
+  "banner_headline_text": "Peneman gaya santai berkilau di mana-mana anda berada.",
+  "prod_cta_text": "MILIKINYA",
+  "collection_cta_text": "MILIKI SELURUH KOLEKSI",
+  "products": [
+    {
+      "name_text": "ARIEL",
+      "desc_text": "Anting-anting Cangkerang Klip",
+      "mat_text": ""
+    },
+    {
+      "name_text": "PERLA",
+      "desc_text": "Rantai Leher Bijian dengan Loket Mutiara Air Tawar",
+      "mat_text": ""
+    },
+    {
+      "name_text": "RYLIE",
+      "desc_text": "Anting-anting Gelung Buih Separa",
+      "mat_text": ""
+    },
+    {
+      "name_text": "AVA",
+      "desc_text": "Rantai Leher Loket Mutiara Air Tawar Menawan",
+      "mat_text": ""
+    },
+    {
+      "name_text": "MAEVE",
+      "desc_text": "Anting-Anting Klip Opal Bujur Krim",
+      "mat_text": ""
+    },
+    {
+      "name_text": "MARINA",
+      "desc_text": "Anting-anting Klip Lazuli Petak",
+      "mat_text": ""
+    }
+  ]
+}

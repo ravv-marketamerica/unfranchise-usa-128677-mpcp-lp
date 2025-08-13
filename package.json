@@ -1,0 +1,30 @@
+{
+  "name": "inline-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "start": "vite preview",
+    "build:sgp": "npm run build prod.sgp.eng.shop && npm run build prod.sgp.eng.layered && npm run build prod.sgp.eng.uf && npm run build prod.sgp.chi.uf && npm run build prod.sgp.chi.shop && npm run build prod.sgp.chi.layered",
+    "build:twn": "npm run build prod.twn.eng.layered && npm run build prod.twn.eng.uf && npm run build prod.twn.chi.uf && npm run build prod.twn.chi.shop && npm run build prod.twn.chi.layered",
+    "build:usa": "npm run build prod.usa.eng.shop && npm run build prod.usa.eng.layered && npm run build prod.usa.eng.uf && npm run build prod.usa.chi.uf",
+    "build:mys": "npm run build prod.mys.eng.shop && npm run build prod.mys.eng.layered && npm run build prod.mys.eng.uf && npm run build prod.mys.chi.uf && npm run build prod.mys.chi.shop && npm run build prod.mys.chi.layered && npm run build prod.mys.msa.shop && npm run build prod.mys.msa.layered && npm run build prod.mys.msa.uf",
+    "build:hkg": "npm run build prod.hkg.eng.shop && npm run build prod.hkg.eng.layered && npm run build prod.hkg.eng.uf && npm run build prod.hkg.chi.uf && npm run build prod.hkg.chi.shop && npm run build prod.hkg.chi.layered",
+    "build:all": "npm run build.sgp && npm run build.twn && npm run build.usa && npm run build.mys"
+  },
+  "devDependencies": {
+    "@rollup/pluginutils": "^5.1.4",
+    "postcss": "^8.5.2",
+    "prettier": "^3.6.2",
+    "sass-embedded": "^1.83.4",
+    "vite": "^6.0.5",
+    "vite-plugin-handlebars": "^2.0.0",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-singlefile": "^2.1.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

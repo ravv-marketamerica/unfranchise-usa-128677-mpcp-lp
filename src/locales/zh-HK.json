@@ -1,0 +1,39 @@
+{
+  "hero_headline_text": "營造海岸風情",
+  "hero_subheadline_text": "",
+  "banner_headline_text": "隨時隨地享受逍遙自在、波光粼粼的海岸魅力",
+  "prod_cta_text": "立即擁有",
+  "collection_cta_text": "選購全系列",
+  "products": [
+    {
+      "name_text": "ARIEL",
+      "desc_text": "貝殼形夾式耳環",
+      "mat_text": ""
+    },
+    {
+      "name_text": "PERLA",
+      "desc_text": "淡水珍珠麥穗項鍊",
+      "mat_text": ""
+    },
+    {
+      "name_text": "RYLIE",
+      "desc_text": "鑲鑽泡泡圈形耳環",
+      "mat_text": ""
+    },
+    {
+      "name_text": "AVA",
+      "desc_text": "單鑽垂墜珍珠項鍊",
+      "mat_text": ""
+    },
+    {
+      "name_text": "MAEVE",
+      "desc_text": "蛋白石橢圓夾式耳環",
+      "mat_text": ""
+    },
+    {
+      "name_text": "MARINA",
+      "desc_text": "青金石方形夾式耳環",
+      "mat_text": ""
+    }
+  ]
+}

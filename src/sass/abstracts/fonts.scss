@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@if ($lang == "zh-HK") {
+  // loads in only the characters you need to zh-HK
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+TC:wght@100..900&display=swap&text=營造海岸風情隨時隨地享受逍遙自在、波光粼粼的海岸魅力貝殼形夾式耳環淡水珍珠麥穗項鍊鑲鑽泡泡圈形耳環單鑽垂墜珍珠項鍊蛋白石橢圓夾式耳環青金石方形夾式耳環立即擁有選購全系列");
+}
