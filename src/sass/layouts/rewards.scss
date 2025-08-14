@@ -1,7 +1,7 @@
 /*--- Rewards ---*/
 
 #{$id} .Rewards {
-  padding: 50px 10px;
+  padding: 40px 10px;
   background-color: rgb(255, 136, 0);
   background-image:
     radial-gradient(at 40% 20%, rgb(255, 188, 129) 0px, transparent 50%),
@@ -13,7 +13,7 @@
     radial-gradient(at 0% 0%, rgb(255, 240, 166) 0px, transparent 50%);
 
   .row {
-    gap: 120px;
+    // gap: 120px;
   }
 
   h1 {
@@ -21,8 +21,10 @@
     font-size: 6em;
     text-align: left;
     font-weight: 500;
-    line-height: 1.4em;
+    line-height: 1em;
     text-transform: uppercase;
+    padding: 0 0 20px 0;
+    margin: 0;
   }
 
   h3 {
@@ -54,6 +56,8 @@
 
 @media screen and (min-width: 1200px) {
   #{$id} .Rewards {
+    padding: 40px 40px;
+
     .row {
       gap: 0px;
     }
