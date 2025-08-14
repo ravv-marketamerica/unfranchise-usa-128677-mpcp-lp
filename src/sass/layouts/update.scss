@@ -1,0 +1,55 @@
+/*--- Update ---*/
+#{$id} .Update {
+  padding: 40px 10px;
+  background: #000;
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-family: "Oswald", serif;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  h2 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+    color: #fff;
+  }
+
+  p {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #{$id} .Update {
+    padding: 40px 10px;
+  }
+}

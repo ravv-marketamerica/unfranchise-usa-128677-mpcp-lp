@@ -1,8 +1,22 @@
 /*--- Intro ---*/
-
 #{$id} .Intro {
   padding: 50px 10px;
   background: linear-gradient(to bottom, #fdecbd 10%, #ffecb3 50%, #ecba4f 85%);
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
 
   h3 {
     font-family: "Montserrat", serif;
@@ -11,6 +25,53 @@
     font-weight: 500;
     line-height: 1.4em;
     text-align: center;
+  }
+
+  p {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  .chart {
+    margin: 2em auto;
+    padding: 1em;
+    display: block;
+    position: relative;
+    width: 80%;
+    max-width: 480px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0em 1em 2.5em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+  }
+
+  .chart h2 {
+    margin: 0 auto 16px;
+    text-transform: uppercase;
+  }
+
+  .chart .chartRow {
+    padding: 8px 16px;
+    display: block;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+  }
+
+  .chart .chartRow s {
+    color: #666;
+    font-weight: 800;
+  }
+
+  .chart .chartRow b {
+    margin-left: 0.5em;
+    color: #cc0000;
+    font-weight: 800;
   }
 }
 
