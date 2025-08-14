@@ -61,7 +61,7 @@ header + main {
 #{$id} {
   position: relative;
   color: #000000;
-  font-family: "Montserrat", "gotham", "helvetica", sans-serif;
+  font-family: "Montserrat", "helvetica", sans-serif;
   font-size: $font-size;
   line-height: 1.4;
   margin: -5px 0 -10px 0;
@@ -91,7 +91,7 @@ header + main {
 #{$id} h5,
 #{$id} h6 {
   color: #000000;
-  font-family: $font-family;
+  font-family: "Oswald", sans-serif;
   line-height: 1.4;
   margin: 0;
 }
@@ -129,6 +129,7 @@ header + main {
 }
 
 #{$id} p {
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   line-height: 1.4;
   font-weight: 300;

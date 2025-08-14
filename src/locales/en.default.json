@@ -1,39 +1,30 @@
 {
-  "hero_headline_text": "On the Coast Edit",
-  "hero_subheadline_text": "",
-  "banner_headline_text": "Take the carefree shimmer of the coast anywhere.",
-  "prod_cta_text": "GET YOURS",
-  "collection_cta_text": "SHOP THE ENTIRE COLLECTION",
-  "products": [
+  "hero_heading_text": "Double Your BV Commissions",
+  "hero_sub_text": "Unlock the MPCP by qualifying as a Master UnFranchise Owner",
+  "intro_text": "We’re thrilled to announce a powerful enhancement to the Management Performance Compensation Plan (MPCP) for UFOs in the US and Canada!<br/><br/>Qualify as a Master UnFranchise Owner (MUFO) and you can <strong>double your BV commissions from your 001 Business Development Center (BDC).</strong><br/><br/>It’s now simpler and more rewarding than ever.",
+  "steps_title_text": "How to Qualify as a Master UnFranchise Owner (MUFO) and Unlock Double BV Commissions",
+  "steps": [
     {
-      "name_text": "ARIEL",
-      "desc_text": "Shell Clip-on Earrings",
-      "mat_text": ""
+      "heading_text": "1. Generate a total of 3,000 BV for the respective quarter.",
+      "body_text": "Product purchases must be from your paying UnFranchise ID or from a registered Preferred Customer’s paying ID."
     },
     {
-      "name_text": "PERLA",
-      "desc_text": "Freshwater Pearl Pendant Wheat Chain Necklace",
-      "mat_text": ""
+      "heading_text": "2. Sponsorship Requirement",
+      "body_01_text": "Personally sponsor 2 qualified UnFranchise Owners, OR",
+      "body_02_text": "Personally sponsor 1 qualified UnFranchise Owner & they personally sponsor 1 qualified UnFranchise Owner",
+      "body_03_text": "(New personally sponsored UnFranchise Owners must be enrolled in Autoship)"
     },
     {
-      "name_text": "RYLIE",
-      "desc_text": "Bubble Half Hoop Earrings",
-      "mat_text": ""
+      "heading_text": "3. Purchase 5 tickets",
+      "body_text": "Purchase 5 tickets to the next event, International Convention or Leadership School."
     },
     {
-      "name_text": "AVA",
-      "desc_text": "Dainty Freshwater Pearl Drop Lariat Necklace",
-      "mat_text": ""
-    },
-    {
-      "name_text": "MAEVE",
-      "desc_text": "Oval Cream Opal Clip-on Earrings",
-      "mat_text": ""
-    },
-    {
-      "name_text": "MARINA",
-      "desc_text": "Lapis Lazuli Square Hammered Clip-on Earrings",
-      "mat_text": ""
+      "heading_text": "4. Attend both major events.",
+      "body_text": "You must attend both major events, International Convention and Leadership School. <br/><br/> Program runs through: December 31"
     }
-  ]
+  ],
+  "rewards_title_text": "REWARDS",
+  "rewards_heading_text": "Double commissions in the 001 BDC",
+  "rewards_sub_text": "(Double BV commissions will be awarded beginning the first day of the UFO’s unique Q Quarter)",
+  "rewards_body_text": "This is your chance to maximize earnings in your UnFranchise Business. If you have questions or need support, please reach out to your team leader!"
 }

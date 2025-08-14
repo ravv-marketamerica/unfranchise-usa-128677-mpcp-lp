@@ -1,7 +1,11 @@
-/*--- Rewards ---*/
+/*--- Steps ---*/
 
 #{$id} .Steps {
-  padding: 40px 10px;
+  padding: 50px 10px;
+  background: url($image_base_url + "/starburst.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   .container {
     padding-top: 2em;
@@ -9,33 +13,43 @@
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
+    line-height: 1.1em;
     text-align: center;
     text-transform: uppercase;
     font-family: "Oswald", serif;
-    font-weight: 300;
-    line-height: 1.2em;
+    font-weight: 500;
+    color: $color-text-yellow;
+  }
+
+  .row {
+    gap: 30px 0;
   }
 
   .grid-item {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    height: 100%;
+    color: #000;
     padding: 2em;
-    margin-bottom: 1em;
     border-radius: 10px;
     text-align: left;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition:
-      transform 0.3s ease,
-      box-shadow 0.3s ease;
+
+    background-color: rgb(244, 192, 70);
+    background-image:
+      radial-gradient(at 40% 20%, rgb(255, 235, 180) 0px, transparent 50%),
+      radial-gradient(at 0% 50%, rgb(236, 186, 98) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgb(239, 188, 106) 0px, transparent 50%),
+      radial-gradient(at 0% 0%, rgb(255, 229, 125) 0px, transparent 50%);
   }
 
   .grid-item h2 {
-    margin-bottom: 1em;
-    font-weight: 500;
-    font-size: 2em;
     font-family: "Oswald", serif;
+    font-weight: 500;
+    font-size: clamp(1.7em, 2vw, 3em);
+    line-height: 1.1em;
     text-transform: uppercase;
+
+    margin-bottom: 1em;
   }
 
   .grid-item p {
@@ -49,27 +63,20 @@
     font-size: 1em;
     font-style: italic;
   }
-
-  /* Custom gradient variations for different items */
-  .grid-item:nth-child(4n + 1) {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  }
-
-  .grid-item:nth-child(4n + 2) {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  }
-
-  .grid-item:nth-child(4n + 3) {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  }
-
-  .grid-item:nth-child(4n + 4) {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-  }
 }
 
 @media screen and (min-width: 576px) {
   #{$id} .Steps {
-    padding: 40px 40px;
+    padding: 120px 40px;
+
+    h1 {
+      font-size: 3em;
+      line-height: 1.1em;
+    }
+
+    .grid-item h2 {
+      font-size: clamp(2em, 2vw, 3em);
+      line-height: 1.1em;
+    }
   }
 }
