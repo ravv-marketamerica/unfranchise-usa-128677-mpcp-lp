@@ -1,56 +1,87 @@
 /*--- Custom Site Fixes Starts Here ---*/
 
-/*--- Layered Fixes ---*/
-:not(style):not(link):not(meta):not(script) ~ section {
-  margin-top: 0;
-}
-
 /**-- Main Padding Fixes --*/
 .js-main.s-main.container-fluid {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/*--- UF Fixes ---*/
-header + main {
-  margin-top: 0 !important;
+@if ($env-webhost == "layered") {
+  /*--- Layered Fixes ---*/
+  :not(style):not(link):not(meta):not(script) ~ section {
+    margin-top: 0;
+  }
 }
 
-.s-footer {
-  margin-top: 0 !important;
+@if ($env-webhost == "unfranchise") {
+  /*--- UF Fixes ---*/
+  header + main {
+    margin-top: 0 !important;
+  }
+
+  .s-footer {
+    margin-top: 0 !important;
+  }
+
+  footer {
+    padding-top: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    /*--- UF Fixes ---*/
+    footer {
+      padding-top: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    /*--- UF Fixes ---*/
+    footer {
+      padding-top: 44px;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    /*--- UF Fixes ---*/
+    footer {
+      padding-top: 0;
+    }
+  }
 }
 
-/*--- Shop Fixes ---*/
-#page {
-  padding-bottom: 0 !important;
-}
+@if ($env-webhost == "shop") {
+  /*--- Shop Fixes ---*/
+  #page {
+    padding-bottom: 0 !important;
+  }
 
-.main-content {
-  padding-top: 140px !important;
-  top: 0 !important;
-}
+  .main-content {
+    padding-top: 140px !important;
+    top: 0 !important;
+  }
 
-.subheader-nav {
-  margin-bottom: 0 !important;
-}
+  .subheader-nav {
+    margin-bottom: 0 !important;
+  }
 
-#footer {
-  -webkit-transform: initial !important;
-  -ms-transform: initial !important;
-  transform: initial !important;
-}
+  #footer {
+    -webkit-transform: initial !important;
+    -ms-transform: initial !important;
+    transform: initial !important;
+  }
 
-#footer .link-to .link-to-page {
-  height: auto !important;
-}
+  #footer .link-to .link-to-page {
+    height: auto !important;
+  }
 
-#footer .link-to .link-to-page button,
-#footer .link-to .link-to-page label.label {
-  white-space: normal !important;
-}
+  #footer .link-to .link-to-page button,
+  #footer .link-to .link-to-page label.label {
+    white-space: normal !important;
+  }
 
-#{$id} .marg-6top {
-  margin-bottom: -6px;
+  #{$id} .marg-6top {
+    margin-bottom: -6px;
+  }
 }
 
 /*--- Base Styles Starts Here ---*/

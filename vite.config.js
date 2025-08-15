@@ -49,6 +49,7 @@ export default defineConfig(async ({ command, mode }) => {
           $env-image-base-url: "${env.VITE_IMAGE_BASE_URL}";
           $env-jira-id: "${env.VITE_JIRA_ID}";
           $env-lang: "${env.VITE_LANG}";
+          $env-webhost: "${env.VITE_WEBHOST}";
           `,
         },
       },
