@@ -1,0 +1,875 @@
+<link rel="stylesheet"
+  href="https://images.marketamerica.com/cdn/interactive-bootstrap-template/css/2.1/interactive-bootstrap.css?=v2">
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Montserrat:wght@100..900&&display=swap");
+
+  /*--- Resets ---*/
+  :root,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #jira-128677 *,
+  #jira-128677 ::after,
+  #jira-128677 ::before,
+  #jira-128677 ::backdrop,
+  #jira-128677 ::file-selector-button {
+    margin: 0;
+  }
+
+  #jira-128677 *,
+  #jira-128677 ::after,
+  #jira-128677 ::before,
+  #jira-128677 ::backdrop,
+  #jira-128677 ::file-selector-button {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+  }
+
+  #jira-128677 h1,
+  #jira-128677 h2,
+  #jira-128677 h3,
+  #jira-128677 h4,
+  #jira-128677 h5,
+  #jira-128677 h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+  }
+
+  #jira-128677 ol,
+  #jira-128677 ul,
+  #jira-128677 menu {
+    list-style: none;
+    margin: 0;
+  }
+
+  #jira-128677 img,
+  #jira-128677 svg,
+  #jira-128677 video,
+  #jira-128677 canvas,
+  #jira-128677 audio,
+  #jira-128677 iframe,
+  #jira-128677 embed,
+  #jira-128677 object {
+    display: block;
+    margin: 0;
+  }
+
+  #jira-128677 img,
+  #jira-128677 video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #jira-128677 a {
+    text-decoration: none;
+  }
+
+  #jira-128677 a:hover {
+    cursor: pointer;
+  }
+
+  /*--- Custom Site Fixes Starts Here ---*/
+  /**-- Main Padding Fixes --*/
+  .js-main.s-main.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /*--- UF Fixes ---*/
+  header+main {
+    margin-top: 0 !important;
+  }
+
+  .s-footer {
+    margin-top: 0 !important;
+  }
+
+  footer {
+    padding-top: 10px;
+  }
+
+  /*--- Base Styles Starts Here ---*/
+  #jira-128677 {
+    position: relative;
+    color: #000000;
+    font-family: "Montserrat", "helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: -5px 0 -10px 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #jira-128677 * {
+    -webkit-box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #jira-128677 h1,
+  #jira-128677 h2,
+  #jira-128677 h3,
+  #jira-128677 h4,
+  #jira-128677 h5,
+  #jira-128677 h6 {
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.4em;
+    margin: 0;
+  }
+
+  #jira-128677 h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+
+  #jira-128677 h2 {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+
+  #jira-128677 h3 {
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+
+  #jira-128677 h4 {
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+
+  #jira-128677 img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #jira-128677 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+
+  #jira-128677 section {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  #jira-128677 .noPadding {
+    padding: 0;
+  }
+
+  #jira-128677 .btn {
+    border: none;
+    padding: 0 10px;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 3px solid #000;
+    font-size: 1em;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+
+  #jira-128677 .btn:hover {
+    color: #777777;
+    border-bottom: 3px solid #777777;
+  }
+
+  #jira-128677 .bggray {
+    background-color: #f2f2f2;
+  }
+
+  #jira-128677 .mobile-break {
+    display: none;
+  }
+
+  /*--- Hero ---*/
+  #jira-128677 .Hero {
+    display: flex;
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: #000;
+    background: url("https://images.marketamerica.com/creative/2025/unfranchise-usa-128677-mpcp-lp/hero-portrait.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 640px;
+    transition: none;
+  }
+
+  #jira-128677 .Hero .row {
+    height: 100%;
+  }
+
+  #jira-128677 .Hero p {
+    font-size: 1.5em;
+    line-height: 1;
+  }
+
+  #jira-128677 .Hero h1 {
+    font-family: "Oswald", serif;
+    font-style: normal;
+    font-size: clamp(2em, 5.6vw, 7em);
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+    margin: 40px 0 0 0;
+    background: linear-gradient(to bottom, #ffec82 10%, #ffecb3 20%, #c9892a 40%, #ffd760 45%, #ffec82 50%, #ffecb3 60%, #c9892a 85%, #ffd760 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #jira-128677 .Hero h2 {
+    font-family: "Oswald", serif;
+    font-size: clamp(1.6em, 1.8vw, 4em);
+    line-height: 1.4em;
+    font-weight: 300;
+    text-align: center;
+    color: #f2d788;
+    text-transform: uppercase;
+  }
+
+  #jira-128677 .Hero h3 {
+    font-family: "Montserrat", serif;
+    font-size: clamp(1em, 1vw, 1.6em);
+    line-height: 1.4em;
+    font-weight: 500;
+    text-align: center;
+    color: #f2d788;
+  }
+
+  /*--- Promo Banner ---*/
+  #jira-128677 .Promo-Banner {
+    padding: 20px 10px;
+    background: #000;
+  }
+
+  #jira-128677 .Promo-Banner .container-fluid {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #jira-128677 .Promo-Banner p {
+    font-family: "Oswald", serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #jira-128677 .Promo-Banner h3 {
+    font-family: "Montserrat", serif;
+    color: #ffffff;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  /*--- Steps ---*/
+  #jira-128677 .Steps {
+    padding: 50px 10px;
+    background: url("https://images.marketamerica.com/creative/2025/unfranchise-usa-128677-mpcp-lp/starburst.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #jira-128677 .Steps .container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #jira-128677 .Steps h1 {
+    font-size: 2em;
+    line-height: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    font-weight: 500;
+    color: #f2d788;
+  }
+
+  #jira-128677 .Steps .row {
+    gap: 30px 0;
+  }
+
+  #jira-128677 .Steps .grid-item {
+    height: 100%;
+    color: #000;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgb(244, 192, 70);
+    background-image: radial-gradient(at 40% 20%, rgb(255, 235, 180) 0px, transparent 50%), radial-gradient(at 0% 50%, rgb(236, 186, 98) 0px, transparent 50%), radial-gradient(at 0% 100%, rgb(239, 188, 106) 0px, transparent 50%), radial-gradient(at 0% 0%, rgb(255, 229, 125) 0px, transparent 50%);
+  }
+
+  #jira-128677 .Steps .grid-item h2 {
+    font-family: "Oswald", serif;
+    font-weight: 500;
+    font-size: clamp(1.7em, 2vw, 3em);
+    line-height: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+  #jira-128677 .Steps .grid-item p {
+    font-family: "Montserrat", serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: auto;
+  }
+
+  #jira-128677 .Steps .grid-item .footnote {
+    font-size: 1em;
+    font-style: italic;
+  }
+
+  /*--- Intro ---*/
+  #jira-128677 .Intro {
+    padding: 50px 10px;
+    background: linear-gradient(to bottom, #fdecbd 10%, #ffecb3 50%, #ecba4f 85%);
+  }
+
+  #jira-128677 .Intro .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #jira-128677 .Intro h2 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  #jira-128677 .Intro h3 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  #jira-128677 .Intro p {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  #jira-128677 .Intro .chart {
+    margin: 2em auto;
+    padding: 1em;
+    display: block;
+    position: relative;
+    width: 80%;
+    max-width: 480px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0em 1em 2.5em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+  }
+
+  #jira-128677 .Intro .chart h2 {
+    margin: 0 auto 16px;
+    text-transform: uppercase;
+  }
+
+  #jira-128677 .Intro .chart .chartRow {
+    padding: 8px 16px;
+    display: block;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+  }
+
+  #jira-128677 .Intro .chart .chartRow s {
+    color: #666;
+    font-weight: 800;
+  }
+
+  #jira-128677 .Intro .chart .chartRow b {
+    margin-left: 0.5em;
+    color: #cc0000;
+    font-weight: 800;
+  }
+
+  /*--- Rewards ---*/
+  #jira-128677 .Rewards {
+    padding: 40px 10px;
+    background-color: rgb(255, 136, 0);
+    background-image: radial-gradient(at 40% 20%, rgb(255, 188, 129) 0px, transparent 50%), radial-gradient(at 80% 0%, rgb(255, 188, 31) 0px, transparent 50%), radial-gradient(at 0% 50%, rgb(255, 211, 154) 0px, transparent 50%), radial-gradient(at 80% 50%, rgb(255, 244, 215) 0px, transparent 50%), radial-gradient(at 0% 100%, rgb(255, 224, 138) 0px, transparent 50%), radial-gradient(at 80% 100%, rgb(195, 137, 31) 0px, transparent 50%), radial-gradient(at 0% 0%, rgb(255, 240, 166) 0px, transparent 50%);
+  }
+
+  #jira-128677 .Rewards h1 {
+    font-family: "Oswald", serif;
+    font-size: 6em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+    margin: 0;
+  }
+
+  #jira-128677 .Rewards h3 {
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 300;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+  }
+
+  #jira-128677 .Rewards p {
+    font-size: 1.4em;
+    line-height: auto;
+    font-weight: 500;
+    font-family: "Montserrat", serif;
+  }
+
+  #jira-128677 .Rewards .footnote {
+    font-size: 1em;
+    font-style: italic;
+  }
+
+  /*--- Update ---*/
+  #jira-128677 .Update {
+    padding: 40px 10px;
+    background: #000;
+  }
+
+  #jira-128677 .Update .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #jira-128677 .Update h1 {
+    font-family: "Oswald", serif;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  #jira-128677 .Update h2 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  #jira-128677 .Update h3 {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+    color: #fff;
+  }
+
+  #jira-128677 .Update p {
+    font-family: "Montserrat", serif;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+  }
+
+  /*--- Advantage ---*/
+  #jira-128677 .Advantage {
+    padding: 50px 10px;
+    background-color: rgb(239, 168, 88);
+    background-image: radial-gradient(at 40% 20%, rgb(255, 209, 124) 0px, transparent 50%), radial-gradient(at 80% 0%, rgb(255, 220, 137) 0px, transparent 50%), radial-gradient(at 0% 50%, rgb(239, 178, 98) 0px, transparent 50%), radial-gradient(at 80% 50%, rgb(239, 189, 73) 0px, transparent 50%), radial-gradient(at 0% 100%, rgb(233, 185, 54) 0px, transparent 50%), radial-gradient(at 80% 100%, rgb(223, 175, 84) 0px, transparent 50%), radial-gradient(at 0% 0%, rgb(243, 173, 76) 0px, transparent 50%);
+  }
+
+  #jira-128677 .Advantage .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #jira-128677 .Advantage h1 {
+    font-family: "Oswald", serif;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+
+  #jira-128677 .Advantage h3 {
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 300;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+  }
+
+  #jira-128677 .Advantage p {
+    font-size: 1.4em;
+    line-height: auto;
+    font-weight: 500;
+    font-family: "Montserrat", serif;
+    text-align: center;
+  }
+
+  #jira-128677 .Advantage .cta {
+    display: block;
+    font-size: clamp(1.6em, 2vw, 2em);
+    font-weight: 600;
+    line-height: 1em;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px auto 0 auto;
+    padding: 0.5em 1.2em;
+    border-radius: 50px;
+    color: #000;
+    background-image: linear-gradient(to bottom, #ffecb3 0%, #ffec82 10%, #ffecb3 30%, #c9892a 85%, #ffec82 100%);
+    background-color: #ffec82 10%;
+  }
+
+  #jira-128677 .Advantage .footnote {
+    font-size: 1em;
+    font-style: italic;
+  }
+
+  @media screen and (min-width: 576px) {
+    #jira-128677 .mobile-break {
+      display: block;
+    }
+
+    #jira-128677 .Hero {
+      padding: 0 40px;
+      background-position: 50% 65%;
+    }
+
+    #jira-128677 .Hero h1 {
+      font-size: clamp(2.4em, 4.6vw, 5em);
+    }
+
+    #jira-128677 .Hero h3 {
+      font-size: clamp(1em, 1.4vw, 1.4em);
+    }
+
+    #jira-128677 .Steps {
+      padding: 120px 40px;
+    }
+
+    #jira-128677 .Steps h1 {
+      font-size: 3em;
+      line-height: 1.1em;
+    }
+
+    #jira-128677 .Steps .grid-item h2 {
+      font-size: clamp(2em, 2vw, 3em);
+      line-height: 1.1em;
+    }
+
+    #jira-128677 .Intro {
+      padding: 100px 10px;
+    }
+
+    #jira-128677 .Rewards {
+      padding: 120px 40px;
+    }
+
+    #jira-128677 .Update {
+      padding: 40px 10px;
+    }
+
+    #jira-128677 .Advantage {
+      padding: 120px 40px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    /*--- UF Fixes ---*/
+    footer {
+      padding-top: 20px;
+    }
+
+    #jira-128677 {
+      margin: -5px 0 -20px 0;
+    }
+
+    #jira-128677 p {
+      font-size: 1.5em;
+    }
+
+    #jira-128677 .Hero {
+      background-color: #000;
+      background: url("https://images.marketamerica.com/creative/2025/unfranchise-usa-128677-mpcp-lp/hero.jpg") no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 640px;
+    }
+
+    #jira-128677 .Hero .row {
+      align-items: center;
+      justify-content: start;
+    }
+
+    #jira-128677 .Hero h1 {
+      font-size: clamp(3.6em, 5.6vw, 7em);
+      padding: 0 0 10px 0;
+      margin: 0;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    #jira-128677 .Hero h1 {
+      font-size: clamp(4.2em, 5.6vw, 7em);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    #jira-128677 .Rewards {
+      padding: 40px 40px;
+    }
+
+    #jira-128677 .Rewards .row {
+      gap: 0px;
+    }
+
+    #jira-128677 .Advantage .row {
+      gap: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+
+    /*--- UF Fixes ---*/
+    footer {
+      padding-top: 44px;
+    }
+
+    #jira-128677 {
+      margin: -5px 0 -45px 0;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+
+    /*--- UF Fixes ---*/
+    footer {
+      padding-top: 0;
+    }
+
+    #jira-128677 {
+      margin: -5px 0 0 0;
+    }
+  }
+</style>
+<div id="jira-128677" class="interactiveBs">
+  <section class="Hero">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1>
+            Double Your BV Commissions
+          </h1>
+          <h2>
+            Unlock Maximum Earnings as a Master UnFranchise Owner
+          </h2>
+          <h3>
+            Unlock the powerful Management Performance Compensation Plan (MPCP) and double your commissions in your
+            001 Business Development Center (BDC)!
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Promo-Banner">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <p>Limited-Time Special Promotion!</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <h3>We’re thrilled to announce the most powerful promotion for the Management Performance
+            Compensation Plan (MPCP) in 33 years for UnFranchise® Owners (UFOs) in the U.S. and Canada! We are doubling
+            down!</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Intro">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10">
+          <h3>
+            Qualify as a Master UnFranchise Owner (MUFO) by Sept. 30 and you can double your BV commissions from your
+            001
+            Business Development Center (BDC) in Q4! This exclusive opportunity is open to UnFranchise® Owners (UFOs) in
+            the U.S. and Canada.<br><br>
+            <strong>Promotion period:</strong> Now through December 31
+          </h3>
+          <br>
+          <h3>
+            Free shipping and designated placement are awarded for three months starting the next quarter.
+          </h3>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div class="chart">
+            <h2>What If...</h2>
+            <div class="chartRow">1200/1200 = <s>$300</s><b>$600</b></div>
+            <div class="chartRow">2400/2400 = <s>$300</s><b>$600</b></div>
+            <div class="chartRow">3600/3600 = <s>$300</s><b>$600</b></div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12">
+          <p>Hurry! Satisfy the Master UFO criteria by September 30 to maximize your earnings in Q4 through year-end!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Steps">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <h1 class="col-12 col-sm-10">How to Qualify as a MUFO & Unlock Double BV Commissions
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+          <div class="grid-item">
+            <h2>1. Generate 3,000 BV during the quarter</h2>
+            <p>Earn through your paying UnFranchise ID or a registered Preferred Customer’s paying ID.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+          <div class="grid-item">
+            <h2>2. Meet the Sponsorship Requirement</h2>
+            <p>Personally sponsor 2 qualified UFOs, or</p>
+            <hr style="width: 100%; height: 1px;color: #000;background-color: #000; margin: 10px 0">
+            <p>Personally sponsor 1 qualified UFO who then sponsors another qualified UFO.</p>
+            <br>
+            <p class="footnote">(Newly sponsored UFOs must be enrolled in AutoShip)</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+          <div class="grid-item">
+            <h2>3. Purchase 5 tickets to the 2026 Leadership School</h2>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+          <div class="grid-item">
+            <h2>4. Attend both major events</h2>
+            <p>Starting with 2026 Leadership School, where we will have a special VIP check-in for you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Rewards">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-12 col-xl-6 p-0 m-0">
+          <h1>REWARDS</h1>
+          <h3 class="col-12 col-xl-10 px-0">
+            Double commissions in the 001 BDC
+          </h3>
+          <p class="footnote col-12 col-xl-8 px-0 pt-2">(Double BV commissions will be awarded beginning the first day
+            of the UFO’s unique Q Quarter)</p>
+        </div>
+        <div class="col-12 col-xl-6 m-0 p-0">
+          <img src="https://images.marketamerica.com/creative/2025/unfranchise-usa-128677-mpcp-lp/2x.png"
+            alt="2x power up">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Update">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10">
+          <h1>Important Update!</h1>
+          <h3>
+            Please note that IBV has been removed from the MUFO criteria — in fact, the IBV program will change to a
+            simplified Cashback offering starting Oct. 1. Stay tuned for more details!
+          </h3>
+          <br>
+          <h3>
+            The IBV accrual criteria of 10, 20 and 30 will now be applied to BV. The new monthly BV accrual criteria
+            will
+            be 60, 120 and 180 (previously 50, 100 and 150).
+          </h3>
+          <br>
+          <h3>
+            Please note that IBV has been removed from the MUFO criteria — in fact, the IBV program will change to a
+            simplified Cashback offering starting Oct. 1. The IBV accrual criteria of 10, 20 and 30 will now be applied
+            to BV. The new monthly BV accrual criteria will be 60, 120 and 180 (previously 50, 100 and 150) as of Oct.
+            1. Stay tuned for more details!
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Advantage">
+    <div class="container-fluid">
+      <div class="row align-items-center ">
+        <div class="col-12 col-xl-12 p-0 m-0">
+          <h1>Unlock Your MPCP Advantage</h1>
+          <p class="col-12 col-xl-12 px-0">
+            <strong>This is your chance to maximize your UnFranchise Business earnings.</strong>
+            <br>
+            Don’t wait — secure your spot and start earning double!
+          </p>
+        </div>
+        <a href="https://www.unfranchise.com/index.cfm?action=shopping.unfProduct&prodID=5825052" target="_blank">
+          <p class="cta">Get Your Tickets Now</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
