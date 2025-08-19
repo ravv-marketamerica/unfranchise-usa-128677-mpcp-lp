@@ -1,6 +1,6 @@
 /*--- Update ---*/
 #{$id} .Update {
-  padding: 40px 10px;
+  padding: 40px 0;
   background: #000;
 
   .row {
@@ -13,7 +13,7 @@
     font-family: "Oswald", serif;
     font-size: 2em;
     font-weight: 500;
-    line-height: 1.4em;
+    line-height: 1.2em;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
@@ -28,28 +28,23 @@
     text-align: center;
   }
 
-  h3 {
+  p {
     font-family: "Montserrat", serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: left;
     font-weight: 500;
     line-height: 1.4em;
     text-align: center;
     color: #fff;
   }
-
-  p {
-    font-family: "Montserrat", serif;
-    font-size: 1.4em;
-    text-align: left;
-    font-weight: 500;
-    line-height: 1.4em;
-    text-align: center;
-  }
 }
 
 @media screen and (min-width: 576px) {
   #{$id} .Update {
     padding: 40px 10px;
+
+    p {
+      font-size: 1.4em;
+    }
   }
 }

@@ -1,6 +1,6 @@
 /*--- Intro ---*/
 #{$id} .Intro {
-  padding: 50px 10px;
+  padding: 50px 0;
   background: linear-gradient(to bottom, #fdecbd 10%, #ffecb3 50%, #ecba4f 85%);
 
   .row {
@@ -11,7 +11,7 @@
 
   h2 {
     font-family: "Montserrat", serif;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: left;
     font-weight: 500;
     line-height: 1.4em;
@@ -20,7 +20,7 @@
 
   h3 {
     font-family: "Montserrat", serif;
-    font-size: 1.4em;
+    font-size: 1em;
     text-align: left;
     font-weight: 500;
     line-height: 1.4em;
@@ -29,7 +29,7 @@
 
   p {
     font-family: "Montserrat", serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: left;
     font-weight: 500;
     line-height: 1.4em;
@@ -78,5 +78,9 @@
 @media screen and (min-width: 576px) {
   #{$id} .Intro {
     padding: 100px 10px;
+
+    p {
+      font-size: 1.4em;
+    }
   }
 }
