@@ -7,9 +7,8 @@
   background-position: center;
   background-repeat: no-repeat;
 
-  .container {
-    padding-top: 2em;
-    padding-bottom: 2em;
+  .row:nth-child(2) {
+    gap: 30px 0;
   }
 
   h1 {
@@ -22,8 +21,14 @@
     color: $color-text-yellow;
   }
 
-  .row {
-    gap: 30px 0;
+  h2 {
+    font-size: 2em;
+    line-height: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    font-weight: 500;
+    color: $color-text-yellow;
   }
 
   .or {
@@ -52,28 +57,28 @@
       radial-gradient(at 0% 50%, rgb(236, 186, 98) 0px, transparent 50%),
       radial-gradient(at 0% 100%, rgb(239, 188, 106) 0px, transparent 50%),
       radial-gradient(at 0% 0%, rgb(255, 229, 125) 0px, transparent 50%);
-  }
 
-  .grid-item h2 {
-    font-family: "Oswald", serif;
-    font-weight: 500;
-    font-size: clamp(1.7em, 2vw, 3em);
-    line-height: 1.1em;
-    text-transform: uppercase;
+    h2 {
+      font-family: "Oswald", serif;
+      font-weight: 500;
+      font-size: clamp(1.7em, 2vw, 3em);
+      line-height: 1.1em;
+      text-transform: uppercase;
+      text-align: left;
+      color: #000;
+    }
 
-    margin-bottom: 1em;
-  }
+    p {
+      font-family: "Montserrat", serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      line-height: auto;
+    }
 
-  .grid-item p {
-    font-family: "Montserrat", serif;
-    font-size: 1.2em;
-    font-weight: 500;
-    line-height: auto;
-  }
-
-  .grid-item .footnote {
-    font-size: 1em;
-    font-style: italic;
+    .footnote {
+      font-size: 1em;
+      font-style: italic;
+    }
   }
 }
 
@@ -86,9 +91,11 @@
       line-height: 1.1em;
     }
 
-    .grid-item h2 {
-      font-size: clamp(2em, 2vw, 3em);
-      line-height: 1.1em;
+    .grid-item {
+      h2 {
+        font-size: clamp(2em, 2vw, 3em);
+        line-height: 1.1em;
+      }
     }
   }
 }
