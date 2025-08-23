@@ -1,0 +1,147 @@
+/*--- Faqs ---*/
+#{$id} .Faqs {
+  padding: 40px 0;
+
+  .faq-container {
+    margin: 0 auto;
+    background: white;
+
+    h1 {
+      line-height: 1em;
+    }
+  }
+
+  .faq-header {
+    color: #000;
+    padding: 40px 30px;
+    text-align: center;
+  }
+
+  .faq-header h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .faq-header p {
+    font-size: 1.4em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .card {
+    border: none;
+    margin-bottom: 0;
+
+    .card-header {
+      padding: 10px 0;
+      background: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125); /* Default BS4 border */
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: fit-content;
+        padding: 0;
+        margin: 0;
+        font-family: "montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 0.6em !important;
+        text-transform: none;
+
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        cursor: pointer;
+
+        .heading {
+          font-size: 1.2em;
+          line-height: 1.2em;
+          display: block;
+          max-width: 90%;
+          float: left;
+          text-wrap: wrap;
+        }
+      }
+
+      .btn-link {
+        width: 100%;
+        text-align: left;
+        font-weight: 500;
+        font-size: 1.05rem;
+        padding: 15px 0;
+        border: none;
+        background: white;
+        color: #000; /* Default link color */
+        text-decoration: none;
+      }
+
+      .btn-link:after {
+        content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M297.4 169.4C309.9 156.9 330.2 156.9 342.7 169.4L534.7 361.4C547.2 373.9 547.2 394.2 534.7 406.7C522.2 419.2 501.9 419.2 489.4 406.7L320 237.3L150.6 406.6C138.1 419.1 117.8 419.1 105.3 406.6C92.8 394.1 92.8 373.8 105.3 361.3L297.3 169.3z'/></svg>");
+        width: 24px;
+        height: 24px;
+      }
+
+      .btn-link.collapsed:after {
+        content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M297.4 470.6C309.9 483.1 330.2 483.1 342.7 470.6L534.7 278.6C547.2 266.1 547.2 245.8 534.7 233.3C522.2 220.8 501.9 220.8 489.4 233.3L320 402.7L150.6 233.4C138.1 220.9 117.8 220.9 105.3 233.4C92.8 245.9 92.8 266.2 105.3 278.7L297.3 470.7z'/></svg>");
+        width: 24px;
+        height: 24px;
+      }
+
+      .btn-link:hover {
+        text-decoration: none;
+      }
+
+      .btn-link:focus {
+        border: none;
+        box-shadow: none;
+        text-decoration: none;
+      }
+    }
+
+    .card-body {
+      font-family: "montserrat", sans-serif;
+      padding: 15px 0;
+      background: white;
+
+      p {
+        font-size: 1.2em !important;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  ol,
+  ul {
+    font-family: "montserrat", sans-serif;
+    font-size: 1.2em;
+    list-style-type: numeric;
+    list-style-position: inside;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  ol li,
+  ul li {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #{$id} .Faqs {
+    .card {
+      .card-header {
+        button {
+          .heading {
+            max-width: 90%;
+          }
+        }
+      }
+    }
+  }
+}
